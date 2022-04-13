@@ -14,10 +14,12 @@
 
 1. ইংরেজি
     1.  [HTML Tutorial for Beginners: HTML Crash Course](https://www.youtube.com/watch?v=qz0aGYrrlhU) - Proggramming with Mosh এর ভিডিও 
+    2. [Learn HTML5 and CSS3 From Scratch - Full Course](https://www.youtube.com/watch?v=mU6anWqZJcc) - Free CodeCamp এর ভিডিও 
 
 
 2. বাংলা 
     1. [web design front end developer Bangla Tutorial](https://www.youtube.com/watch?v=FwmuhNTrJO4&list=PLgH5QX0i9K3oHBr5dsumGwjUxByN5Lnw3) - আনিসুল হক ভাই এর বাংলা টিউটোরিয়াল ও প্লেস লিস্ট 
+    
 
 
 ## সিএসএস রিসোর্স 
@@ -41,3 +43,4 @@
 ## বেসিক পাইথন রিসোর্স 
     1. ইংরেজি 
     2. বাংলা 
+        1. [Python Basic]()
