@@ -10,7 +10,7 @@
 ✔ বুটস্ট্রাপ   
 ✔ জাভাস্ক্রিপ্ট নিয়ে বেসিক ধারনা 
 
-## বেসিক এইচটিএমএল এর জন্য রিসোর্স 
+## বেসিক এইচটিএমএল ও সিএসএস এর জন্য রিসোর্স 
 
 1. ইংরেজি
     1.  [HTML Tutorial for Beginners: HTML Crash Course](https://www.youtube.com/watch?v=qz0aGYrrlhU) - Proggramming with Mosh এর ভিডিও 
@@ -19,13 +19,8 @@
 
 2. বাংলা 
     1. [web design front end developer Bangla Tutorial](https://www.youtube.com/watch?v=FwmuhNTrJO4&list=PLgH5QX0i9K3oHBr5dsumGwjUxByN5Lnw3) - আনিসুল হক ভাই এর বাংলা টিউটোরিয়াল ও প্লেস লিস্ট 
+    2. [CSS Full Course Bangla](https://www.youtube.com/watch?v=_5TU7eXKeyk&list=PLgH5QX0i9K3qjCBXjTmv7Xeh8MDUUVJDO&index=3) -আনিসুল হক ভাই 
     
-
-
-## সিএসএস রিসোর্স 
-    1. ইংরেজি 
-    2.  বাংলা 
-
 
 ## বেসিক পাইথন রিসোর্স 
     1. ইংরেজি 
@@ -41,6 +36,10 @@
 
 
 ## বেসিক পাইথন রিসোর্স 
-    1. ইংরেজি 
-    2. বাংলা 
-        1. [Python Basic]()
+1. ইংরেজি
+    1.   
+2. বাংলা 
+    1. [Python Basic](https://www.youtube.com/watch?v=PflIsrBel8E&list=PLrLsat9e6PfHjMmGsUWk9ermpvCi5kexy) - আইটি শিক্ষা ইউটিউব চ্যানেল 
+    2. [সহজ ভাষায় বাংলা পাইথন](https://python.maateen.me/)
+    
+
