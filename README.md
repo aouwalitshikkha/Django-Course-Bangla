@@ -40,6 +40,8 @@
     1.   
 2. বাংলা 
     1. [Python Basic](https://www.youtube.com/watch?v=PflIsrBel8E&list=PLrLsat9e6PfHjMmGsUWk9ermpvCi5kexy) - আইটি শিক্ষা ইউটিউব চ্যানেল 
-    2. [সহজ ভাষায় বাংলা পাইথন](https://python.maateen.me/)
+    2. [সহজ ভাষায় বাংলা পাইথন](https://python.maateen.me/) -মাটিন ভাই এর বাংলা রিসোর্স 
+    3. [হাকুশ পাকুশ](https://hukush-pakush.com/) - গল্পে গল্পে প্রোগ্রামিং শিখা 
     
+
 
