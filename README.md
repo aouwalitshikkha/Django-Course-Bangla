@@ -36,13 +36,13 @@
 
 ## বেসিক পাইথন রিসোর্স 
 1. ইংরেজি
-    1.  
+    1.  [Telesku Python for Beginners](https://www.youtube.com/watch?v=QXeEoD0pB3E&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3) - Navin Reddy
 2. বাংলা 
     1. [Python Basic](https://www.youtube.com/watch?v=PflIsrBel8E&list=PLrLsat9e6PfHjMmGsUWk9ermpvCi5kexy) - আইটি শিক্ষা ইউটিউব চ্যানেল 
     2. [Bangla Python Tutorial for Beginners](https://www.youtube.com/playlist?list=PLlBKlxyCgmsCYJLq9qc5QzaU-oBFJN79B) - Starbit Youtube Channel
-    2. [সহজ ভাষায় বাংলা পাইথন](https://python.maateen.me/) -মাটিন ভাই এর বাংলা রিসোর্স 
-    3. [হাকুশ পাকুশ](https://hukush-pakush.com/) - গল্পে গল্পে প্রোগ্রামিং শিখা 
-    4.  [60 Days of Python](https://www.youtube.com/watch?v=FZmPnTVOAR4&list=PLKdU0fuY4OFf7qj4eoBtvALAB_Ml2rN0V) - Study Mart এর ভিডিও
+    3. [সহজ ভাষায় বাংলা পাইথন](https://python.maateen.me/) -মাটিন ভাই এর বাংলা রিসোর্স 
+    4. [হাকুশ পাকুশ](https://hukush-pakush.com/) - গল্পে গল্পে প্রোগ্রামিং শিখা 
+    5.  [60 Days of Python](https://www.youtube.com/watch?v=FZmPnTVOAR4&list=PLKdU0fuY4OFf7qj4eoBtvALAB_Ml2rN0V) - Study Mart এর ভিডিও
     
 
 
