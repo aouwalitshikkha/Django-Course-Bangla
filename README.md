@@ -39,6 +39,8 @@
 ## বেসিক পাইথন রিসোর্স 
 1. ইংরেজি
     1.  [Telesku Python for Beginners](https://www.youtube.com/watch?v=QXeEoD0pB3E&list=PLsyeobzWxl7poL9JTVyndKe62ieoN-MZ3) - Navin Reddy
+    2. [Python Programming Tutorials (Computer Science)](https://www.youtube.com/playlist?list=PLi01XoE8jYohWFPpC17Z-wWhPOSuh8Er-) - Socratica Channel
+    2. [Python Tutorial](https://www.w3schools.com/python/default.asp)- W3 Schools
 2. বাংলা 
     1. [Python Basic](https://www.youtube.com/watch?v=PflIsrBel8E&list=PLrLsat9e6PfHjMmGsUWk9ermpvCi5kexy) - আইটি শিক্ষা ইউটিউব চ্যানেল 
     2. [Bangla Python Tutorial for Beginners](https://www.youtube.com/playlist?list=PLlBKlxyCgmsCYJLq9qc5QzaU-oBFJN79B) - Starbit Youtube Channel
