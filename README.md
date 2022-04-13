@@ -26,8 +26,13 @@
     
 
 ## বুটস্ট্রাপ রিসোর্স 
-    1. ইংরেজি 
-    2. বাংলা 
+1. ইংরেজি 
+    1. [Bootstrap Official Documentation](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+    2. [Bootstrap 5.0 Crush Course](https://www.youtube.com/watch?v=O_9u1P5YjVc&list=PL4cUxeGkcC9joIM91nLzd_qaH_AimmdAR) - The Net Ninja Youtube Channel
+
+2. বাংলা 
+    1. [Bootstrap 5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/) - Procoder BD Channel
+    2. [Bootstrap 5.0 Bangla Tutorial](https://www.youtube.com/watch?v=Wl6Q472fNCc&list=PLgH5QX0i9K3oC_wmWEZa2xWxJauIRQ9kG) - Anisul Islam Youtube Channel
 
 ## জাভাস্ক্রিপ্ট রিসোর্স 
 1. বাংলা 
