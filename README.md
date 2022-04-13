@@ -22,10 +22,6 @@
     2. [CSS Full Course Bangla](https://www.youtube.com/watch?v=_5TU7eXKeyk&list=PLgH5QX0i9K3qjCBXjTmv7Xeh8MDUUVJDO&index=3) -আনিসুল হক ভাই 
     
 
-## বেসিক পাইথন রিসোর্স 
-    1. ইংরেজি 
-    2. বাংলা 
-
 ## বুটস্ট্রাপ রিসোর্স 
     1. ইংরেজি 
     2. বাংলা 
