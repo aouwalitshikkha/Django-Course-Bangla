@@ -20,6 +20,9 @@
 2. বাংলা 
     1. [web design front end developer Bangla Tutorial](https://www.youtube.com/watch?v=FwmuhNTrJO4&list=PLgH5QX0i9K3oHBr5dsumGwjUxByN5Lnw3) - আনিসুল হক ভাই এর বাংলা টিউটোরিয়াল ও প্লেস লিস্ট 
     2. [CSS Full Course Bangla](https://www.youtube.com/watch?v=_5TU7eXKeyk&list=PLgH5QX0i9K3qjCBXjTmv7Xeh8MDUUVJDO&index=3) -আনিসুল হক ভাই 
+    3. [HTML Bangla Tutorial](https://www.youtube.com/playlist?list=PLm64fbD5OnxuObyOVSxcM0TUcBLDF2w64) - মশিউর চ্যানেল 
+    4. [CSS Bangla Tutorial](https://www.youtube.com/playlist?list=PLm64fbD5Onxvj4aifOC8P8U8inUqWzdSH) - মশিউর চ্যানেল 
+
     
 
 ## বুটস্ট্রাপ রিসোর্স 
