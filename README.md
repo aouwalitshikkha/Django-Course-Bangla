@@ -30,8 +30,10 @@
     2. বাংলা 
 
 ## জাভাস্ক্রিপ্ট রিসোর্স 
-    1. বাংলা 
-    2. ইংরেজি 
+1. বাংলা 
+    1. [JavaScript Bangla Tutorial](https://www.youtube.com/watch?v=rePN-VFo1Eo&list=PLHiZ4m8vCp9OkrURufHpGUUTBjJhO9Ghy) - LWS Bangladesh বাংলা চ্যানেল 
+2. ইংরেজি 
+    1. [JAVASCRIPT360](https://javascript30.com/) - Website 
 
 
 ## বেসিক পাইথন রিসোর্স 
