@@ -233,7 +233,7 @@ python manage.py startapp HelloWorldApps
 
 এই ফাইলে মুলত মডেল বা ডাটাবেস থাকে । মডেল বা ডাটাবেস মুলত পাইথনের ক্লাস আকারেই লিখা হয় 
 
-![Model File ](https://github.com/aouwalitshikkha/Django-Course-Bangla/blob/main/others/images/models.jpg)
+![Model File ](https://github.com/aouwalitshikkha/Django-Course-Bangla/blob/main/others/images/model.jpg)
 
 ### 5. Views.py 
 এপসের সবচেয়ে গুরুত্বপুর্ন ফাইল । ব্রাউজার যখন সার্ভারে রিকুয়েস্ট পাঠায় সেটা ভিউ ফাইলের মধ্যেই প্রসেস হয়ে ইউজারের কাছে দেখায় । ভিউ ফাইলের ফাংশনালিটিই নির্ভর করবে আপনাকে কি দেখাবে । 
