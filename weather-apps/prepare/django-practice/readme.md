@@ -1,6 +1,10 @@
 # জ্যাংগো প্রথম প্রজেক্ট ( Views ও URLs ফাইল নিয়ে আলোচনা )
 
+
 এখানে আমরা একটি স্টাটিক হোম পেজ তৈরী করব । সম্পুর্ন স্টেপ গুলা নিচে দেওয়া হল 
+
+
+# ভিডিও ১১ঃ ইউ আর এল ফাইল কনফিগ 
 
 ## সংক্ষিপ্ত ধাপ 
 -   প্রথমে ভার্চুয়াল এনভায়রনমেন্ট ক্রিয়েট করা 
@@ -60,5 +64,91 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'weather', # এই লাইন নতুন ভাবে যুক্ত করা হয়েছে 
 ]
+```
+
+- #### Weather ফোল্ডারে urls.py ফাইল যুক্ত করুন । 
+- #### core এর urls.py ফাইলের ২ নং লাইনে path এর পর কমা দিয়ে include ফাংশনকে ইম্পোর্ট করুন । আর urlpattern লিস্টে নতুন করে *path('', include('weather.urls'))* যুক্ত করুন । এখানে weather হচ্ছে এপস এর নাম আর urls হচ্ছে সেখানকার ফাংশনের নাম। 
+
+```python 
+# core/urls.py
+
+from django.contrib import admin
+from django.urls import path, include
+
+urlpatterns = [
+    path('admin/', admin.site.urls),
+    path('', include('weather.urls'))
+]
+```
+- Weatther ফোল্ডারে আগের core ফোল্ডারের কোড কপি করে নিন। সেখানে প্রথম লাইন *from django.contrib import admin* বাদ দিন । আর path পরে include বাদঃ দিয়ে দিন । একই ফোল্ডার থেকে views ফাইল ইম্পোর্ট করুন । 
+
+- urlpatterns লিস্টের প্রথম লাইন বাদ দিন *path('admin/', admin.site.urls),* । আর এরপরের লাইনে যুক্ত করুন path('', views.home_view , name ="home" ) । তাহলে মুল ফাইল হবে নিচের মত 
+
+```python
+# weather/urls.py
 
 
+from django.urls import path
+from . import views
+
+
+urlpatterns = [
+    path('', views.home_view , name ="home" )
+]
+```
+
+- এখানে urls প্যাটার্ন লিস্টে views.home_view নির্দেশ করে views.py ফাইলে তৈরী করা home_view ফাংশনকে  । আর এরপর নাম হচ্ছে home. যা আমরা পরবর্তীতে ব্যবহার করব বিভিন্ন সময় নির্দিষ্ট ইউ আর এলকে কল করার জন্য । 
+
+## ভিডিও -১২ঃ  Views তৈরী 
+
+weather ফোল্ডারের views.py ফাইল যে কোন আইডিএলই তে খুলুন । এরপর সেখানে weather/urls.py ফাইলে দেওয়া নাম অনুসারে একটি ফাংশন ডেভেলপ করুন। আমরা এর আগে নাম দিয়েছিলাম home_view তাই হোম ভিউ নামে একটা ফাংশন তৈরী করা হয়েছে প্রথমে । 
+
+ফাংশনটি 
+
+```python
+# weather/views.py 
+
+from django.shortcuts import render, HttpResponse
+
+def home_view(request):
+    return HttpResponse('<h1>First Django Project</h1>') 
+```
+
+এবার সার্ভার রান করুন । 
+```python
+python manage.py runserver
+```
+
+আপনি হোম পেজে ( http://127.0.0.1:8000/ ) দেখতে পারবেন First Django Project লিখাটি h1 হিসাবে । 
+
+কিন্তু এতে বড় কোন ফাইল লিখা অনেক ঝামেলা । এইজন্য আমরা টেমপ্লেট ইউজ করুব । টেমপ্লেট নামে একটি ফোল্ডার যুক্ত করুন আপনার src ডিরেক্টরিতে । 
+
+তাহলে আপনার ফোল্ডার স্ট্রাকচার হবে 
+```code
+.
+├── src                     # মুল ফোল্ডার 
+├── core                    # প্রজেক্ট ফোল্ডার
+├── weather                 # এপ্লিকেশন ফোল্ডার
+├── templates               # টেমপ্লেট ফোল্ডার 
+```
+সেই টেমপ্লেট ফোল্ডারের মধ্যে যে কোন টেমপ্লেট রাখুন ।  এরপর views.py ফাইলে নিচের কোড লিখুন । 
+
+```python
+# weather/views.py 
+
+from django.shortcuts import render, HttpResponse
+
+# Create your views here.
+
+def home_view(request):
+    return render(request, 'home.html')
+```
+
+আবার  সার্ভার রান করুন । 
+```python
+python manage.py runserver
+```
+
+তাহলে আপনার দেখানো টেমপ্লেট দেখতে পারবেন ব্রাউজারে (http://127.0.0.1:8000/)। 
+
+রিসোর্স লিংকঃ 
