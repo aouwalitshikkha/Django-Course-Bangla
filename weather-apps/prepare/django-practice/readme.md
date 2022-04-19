@@ -144,11 +144,34 @@ def home_view(request):
     return render(request, 'home.html')
 ```
 
+
+ ব্রাউজারে http://127.0.0.1:8000/ ইউ আর এল প্রবেশ করলে দেখতে পারবেন Template Doesn't Exists দেখাচ্ছে । এই সমস্যা সল্ভ করার জন্য core/settings.py ফাইলে প্রবেশ করুন । এরপর templates লিস্ট ( ৫৮ নং লাইনে ) Dir এর ভিতরে লিখুন BASE_DIR / 'templates' । তাহলে কোড নিচের মত দেখাবে 
+```python 
+
+TEMPLATES = [
+    {
+        'BACKEND': 'django.template.backends.django.DjangoTemplates',
+        'DIRS': [BASE_DIR / 'templates'],
+        'APP_DIRS': True,
+        'OPTIONS': {
+            'context_processors': [
+                'django.template.context_processors.debug',
+                'django.template.context_processors.request',
+                'django.contrib.auth.context_processors.auth',
+                'django.contrib.messages.context_processors.messages',
+            ],
+        },
+    },
+]
+```
+
 আবার  সার্ভার রান করুন । 
+
 ```python
 python manage.py runserver
 ```
 
 তাহলে আপনার দেখানো টেমপ্লেট দেখতে পারবেন ব্রাউজারে (http://127.0.0.1:8000/)। 
+
 
 রিসোর্স লিংকঃ 
